@@ -1,0 +1,17 @@
+D:\Rahul\Learning\Udacity SRE nanodegree\nd087-c3-deployment-roulette\starter\apps\canary>kubectl get pods --all-namespaces
+NAMESPACE     NAME                          READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-f4x2f                2/2     Running   0          76m
+kube-system   aws-node-tnp5p                2/2     Running   0          76m
+kube-system   coredns-6b94694fcb-9p22w      1/1     Running   0          78m
+kube-system   coredns-6b94694fcb-x8r2l      1/1     Running   0          78m
+kube-system   kube-proxy-dl9hk              1/1     Running   0          76m
+kube-system   kube-proxy-mtnkv              1/1     Running   0          76m
+udacity       blue-68f654b6f9-7h4nd         1/1     Running   0          58m
+udacity       blue-68f654b6f9-gcz5k         1/1     Running   0          58m
+udacity       blue-68f654b6f9-sltp4         1/1     Running   0          58m
+udacity       canary-v1-58cb5c49d-8b4b9     1/1     Running   0          58m
+udacity       canary-v1-58cb5c49d-vmzlz     1/1     Running   0          12m
+udacity       canary-v2-55647dff9d-brjss    1/1     Running   0          4m38s
+udacity       canary-v2-55647dff9d-lxzq7    1/1     Running   0          5m34s
+udacity       debug                         1/1     Running   0          2m33s
+udacity       hello-world-844c8ccbb-q598k   1/1     Running   0          49m
